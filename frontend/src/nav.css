@@ -1,0 +1,42 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #292525;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #f4eded;
+    text-align: center;
+    padding: 26px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #c0dc11;
+      text-decoration: none;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #242323;
+    color: #e9d7d7;
+    text-align: center;
+    padding: 14px;
+ }
+
+ input[type=text] {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 20px 0;
+  box-sizing: content-box;
+     border-radius: 10px;
+}
